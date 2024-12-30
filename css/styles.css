@@ -1,0 +1,161 @@
+html,
+body {
+  font-family: "Roboto", sans-serif;
+  background-color: #ffffff;
+  font-weight: 400;
+  color: #434455;
+  font-size: 16px;
+  letter-spacing: 0.02em;
+}
+.header {
+    border-bottom: 1px solid #e7e9fc;
+}
+.container {
+    display: flex;
+    width: 1158px;
+    margin: 0 outo;
+    padding: 0.15px;
+
+}
+.nav-1 {
+    display: flex;
+    align-items: center;
+    padding: 24px 0;
+}
+.logo-hea {
+  font-family: "Raleway", sans-serif;
+  color: #4d5ae5;
+  font-size: 18px;
+  font-weight: 700;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  line-height: 1.17;
+  cursor: pointer;
+  margin-right: 76px;
+
+}
+.header-ul {
+    display: flex;
+    gap: 40px;
+
+}
+
+.stu-dio-1 {
+  color: #2e2f42;
+}
+.header-link {
+  font-size: 16px;
+}
+.adress {
+  font-size: 16px;
+  color: #434455;
+
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
+.link-list {
+  font-style: normal;
+  display: flex;
+  gap: 40px;
+}
+
+.header-link {
+  font-family: "Roboto";
+  color: #2e2f42;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
+.header-link:hover,
+.header-link:focus {
+  color: #404bbf;
+}
+
+.adress:hover,
+.adress:focus {
+  color: #404bbf;
+}
+
+h1 {
+  font-size: 56px;
+  line-height: 1.07;
+  text-align: center;
+  color: #ffffff;
+  letter-spacing: 0.02em;
+}
+
+.order-service {
+  background-color: #2e2f42;
+}
+.button-text-color:hover {
+  background-color: #404bbf;
+  cursor: pointer;
+}
+.button-text-color:focus {
+  background-color: #404bbf;
+  cursor: pointer;
+}
+button {
+  background-color: #4d5ae5;
+  font-family: "Roboto" sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: #ffffff;
+}
+.our-team {
+  background-color: #f4f4fd;
+}
+
+.team-list {
+  background-color: #ffffff;
+}
+
+h3 {
+  font-family: "Roboto";
+  color: #2e2f42;
+  font-size: 20px;
+  letter-spacing: 0.02em;
+  font-weight: 500;
+  line-height: 1.2;
+}
+p {
+  font-family: "Roboto";
+  color: #434455;
+  font-size: 16px;
+  letter-spacing: 0.02em;
+  line-height: 1.5;
+}
+h2 {
+  font-family: "Roboto";
+  font-size: 36px;
+  text-align: center;
+  text-transform: capitalize;
+  color: #2e2f42;
+  letter-spacing: 0.02em;
+  line-height: 1.11;
+}
+.footer {
+  font-family: "Raleway" sans-serif;
+  color: #4d5ae5;
+  font-size: 18px;
+  font-weight: 700;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  line-height: 1.17;
+  cursor: pointer;
+  background-color: #2e2f42;
+}
+.stu-dio {
+  color: #f4f4fd;
+}
+
+.footer-p {
+  color: #f4f4fd;
+  letter-spacing: 0.02em;
+  background-color: #2e2f42;
+  font-size: 12px;
+  line-height: 1.5;
+}
