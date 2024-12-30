@@ -7,15 +7,17 @@ body {
   font-size: 16px;
   letter-spacing: 0.02em;
 }
-.header {
+.nav-bar-1 {
   border-bottom: 1px solid #e7e9fc;
+  padding: 24px 0;
 }
 .container {
+  display: flex;
   width: 1158px;
   margin: 0 auto;
   padding: 0 15px;
 }
-.nav-1-nav {
+.nav-bar-2 {
   display: flex;
   align-items: center;
   padding: 24px 0;
@@ -44,16 +46,16 @@ body {
   font-size: 16px;
 }
 .adress {
-  display: flex;
   font-size: 16px;
   color: #434455;
-  gap: 40px;
-
-  line-height: 1.5;
+line-height: 1.5;
   letter-spacing: 0.02em;
 }
+
 .link-list {
   font-style: normal;
+  display: flex;
+  gap: 40px;
 }
 
 .header-link {
