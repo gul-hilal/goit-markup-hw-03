@@ -1,3 +1,8 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
 html,
 body {
   font-family: "Roboto", sans-serif;
@@ -18,17 +23,17 @@ img {
 }
 
 .container {
-  display: flex;
+ display: flex;
   width: 1158px;
   margin: 0 auto;
   padding: 0 15px;
-  padding: 24px 0;
 }
 .nav-bar {
   display: flex;
   align-items: center;
 }
 .logo-hea {
+    display: flex;
   font-family: "Raleway", sans-serif;
   color: #4d5ae5;
   font-size: 18px;
@@ -55,6 +60,7 @@ img {
   padding: 24px 0;
 }
 .adress {
+    
   display: flex;
   font-size: 16px;
   color: #434455;
@@ -144,8 +150,6 @@ h1 {
 .our-team {
   background-color: #f4f4fd;
   padding: 120px 0;
-  width: calc(100% - 72px) / 4);
-
 }
 .our-team-div {
   padding: 32px 0;
@@ -178,11 +182,6 @@ h3 {
 .our-portfolio-2 {
   padding: 120px 0;
   margin-bottom: 72px;
-  width: calc(100% - 72px) / 4);
-  border-radius: 0px 0px 4px 4px;
-  border-top-left-radius: 0px;
-  border-top-right-radius: 0px;
-
 }
 .our-portfolio-ul {
   display: flex;
@@ -217,7 +216,7 @@ h2 {
   margin-bottom: 72px;
 }
 .footer {
-    display: inline-block;
+  display: inline-block;
   padding: 100px 0;
   font-family: "Raleway" sans-serif;
   color: #4d5ae5;
@@ -233,10 +232,11 @@ h2 {
   color: #f4f4fd;
 }
 .logo-hea {
-  display: inline-block;
   margin-bottom: 16px;
 }
-
+.a {
+  display: inline-block;
+}
 .footer-p {
   color: #f4f4fd;
   letter-spacing: 0.02em;
