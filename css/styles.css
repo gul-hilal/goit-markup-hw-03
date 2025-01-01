@@ -19,7 +19,6 @@ body {
   width: 1158px;
   margin: 0 auto;
   padding: 0 15px;
-  padding: 24px;
 }
 .nav-bar {
   display: flex;
@@ -35,13 +34,14 @@ body {
   line-height: 1.17;
   cursor: pointer;
   margin-right: 76px;
-  padding: 24px;
+  padding: 24px 0;
 }
 
 .stu-dio-1 {
   color: #2e2f42;
 }
-.header-link {
+.header-link,
+.header-ul {
   display: flex;
   font-size: 16px;
   gap: 40px;
