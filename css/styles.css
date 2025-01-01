@@ -7,17 +7,19 @@ body {
   font-size: 16px;
   letter-spacing: 0.02em;
 }
-.nav-bar-1 {
+.header {
   border-bottom: 1px solid #e7e9fc;
-  padding: 24px 0;
+  
 }
-.container {
+.nav-bar {
   display: flex;
-  width: 1158px;
-  margin: 0 auto;
-  padding: 0 15px;
-}
-.nav-bar-2 {
+ }
+ .container {
+    width: 1158px;
+    margin: 0 auto;
+    padding: 0 15px;
+ }
+.nav-bar-1 {
   display: flex;
   align-items: center;
   padding: 24px 0;
@@ -110,6 +112,10 @@ button {
 
 .team-list {
   background-color: #ffffff;
+  display: block;
+}
+.team-member {
+    display: block;
 }
 
 h3 {
