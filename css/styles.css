@@ -96,9 +96,19 @@ h1 {
 .main-text {
   max-width: 496px;
 }
-.button, .button-text-color {
-  display: flex;
- margin: 0 auto;
+.button {
+  display: block;
+  margin: 0 auto;
+}
+
+.button-text-color {
+  font-family: "Roboto" sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: #ffffff;
+
   min-width: 169px;
   height: 56px;
   border: none;
@@ -109,30 +119,24 @@ h1 {
 
 .button-text-color:hover {
   background-color: #404bbf;
-  cursor: pointer;
 }
 .button-text-color:focus {
   background-color: #404bbf;
 }
-button {
-  background-color: #4d5ae5;
-  font-family: "Roboto" sans-serif;
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.04em;
-  color: #ffffff;
-}
+
 .middle-part {
-    padding: 120px 0;
+  padding: 120px 0;
 }
 .middle-ul {
-    display: flex;
-    gap: 24px;
+  display: flex;
+  gap: 24px;
 }
 .our-team {
   background-color: #f4f4fd;
   padding: 120px 0;
+}
+.our-team-div {
+  padding: 32px 0;
 }
 
 .team-list {
@@ -141,6 +145,8 @@ button {
 }
 .team-member {
   display: block;
+  text-align: center;
+  margin-bottom: 8px;
 }
 
 h3 {
@@ -151,23 +157,20 @@ h3 {
   font-weight: 500;
   line-height: 1.2;
   margin-bottom: 8px;
-
 }
 .our-team-ul {
-    display: flex;
-    gap: 24px;
+  display: flex;
+  gap: 24px;
 }
-.parag {
-    display: flex;
-    text-align: center;
-    
-}
+
 p {
+  display: flex;
   font-family: "Roboto";
   color: #434455;
   font-size: 16px;
   letter-spacing: 0.02em;
   line-height: 1.5;
+  text-align: center;
 }
 h2 {
   font-family: "Roboto";
