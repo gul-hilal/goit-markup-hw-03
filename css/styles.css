@@ -19,8 +19,9 @@ body {
   width: 1158px;
   margin: 0 auto;
   padding: 0 15px;
+  padding: 24px;
 }
-.nav-bar-1 {
+.nav-bar {
   display: flex;
   align-items: center;
 }
@@ -35,10 +36,6 @@ body {
   cursor: pointer;
   margin-right: 76px;
   padding: 24px;
-}
-.header-ul {
-  display: flex;
-  gap: 40px;
 }
 
 .stu-dio-1 {
@@ -65,12 +62,14 @@ body {
 }
 
 .header-link {
+  display: flex;
   font-family: "Roboto";
   color: #2e2f42;
   font-size: 16px;
   font-weight: 500;
   line-height: 1.5;
   letter-spacing: 0.02em;
+  gap: 40px;
 }
 .header-link:hover,
 .header-link:focus {
@@ -92,6 +91,20 @@ h1 {
 
 .order-service {
   background-color: #2e2f42;
+  padding: 188px 0;
+}
+.main-text {
+  max-width: 496px;
+}
+.button-text-color {
+  display: flex;
+  margin: 0 auto;
+  min-width: 169px;
+  height: 56px;
+  border: none;
+  background-color: #4d5ae5;
+  border-radius: 4px;
+  cursor: pointer;
 }
 .button-text-color:hover {
   background-color: #404bbf;
@@ -99,7 +112,6 @@ h1 {
 }
 .button-text-color:focus {
   background-color: #404bbf;
-  cursor: pointer;
 }
 button {
   background-color: #4d5ae5;
