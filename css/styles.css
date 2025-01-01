@@ -123,6 +123,8 @@ h1 {
 .button-text-color:focus {
   background-color: #404bbf;
 }
+.visually-hidden {
+}
 
 .middle-part {
   padding: 120px 0;
@@ -161,6 +163,22 @@ h3 {
 .our-team-ul {
   display: flex;
   gap: 24px;
+}
+.our-portfolio {
+  padding: 120px 0;
+  margin-bottom: 72px;
+}
+.our-portfolio-ul {
+  display: flex;
+  flex-wrap: wrap;
+  column-gap: 24px;
+  row-gap: 48px;
+}
+.our-portfolio-div {
+  padding: 32px 16px;
+  border: 1px solid #e7e9fc;
+  border-top: none;
+  margin-bottom: 8px;
 }
 
 p {
