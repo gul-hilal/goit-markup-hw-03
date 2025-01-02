@@ -23,7 +23,7 @@ img {
 }
 
 .container {
- display: flex;
+  display: flex;
   width: 1158px;
   margin: 0 auto;
   padding: 0 15px;
@@ -33,7 +33,7 @@ img {
   align-items: center;
 }
 .logo-hea {
-    display: flex;
+  display: flex;
   font-family: "Raleway", sans-serif;
   color: #4d5ae5;
   font-size: 18px;
@@ -60,7 +60,6 @@ img {
   padding: 24px 0;
 }
 .adress {
-    
   display: flex;
   font-size: 16px;
   color: #434455;
@@ -138,6 +137,16 @@ h1 {
   background-color: #404bbf;
 }
 .visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
 }
 
 .middle-part {
@@ -234,9 +243,11 @@ h2 {
 .logo-hea {
   margin-bottom: 16px;
 }
-.a {
+.logo-hea,
+.stu-dio {
   display: inline-block;
 }
+
 .footer-p {
   color: #f4f4fd;
   letter-spacing: 0.02em;
