@@ -60,6 +60,7 @@ img {
   padding: 24px 0;
 }
 .adress {
+    
   display: flex;
   font-size: 16px;
   color: #434455;
@@ -225,7 +226,7 @@ h2 {
   margin-bottom: 72px;
 }
 .footer {
-  display: inline-block;
+  
   padding: 100px 0;
   font-family: "Raleway" sans-serif;
   color: #4d5ae5;
