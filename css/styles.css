@@ -23,18 +23,15 @@ img {
 }
 
 .container {
-
- display: flex;
+  display: flex;
   width: 1158px;
   margin: 0 auto;
   padding: 0 15px;
-  
 }
 .nav-bar {
   display: flex;
   align-items: center;
   padding: 24px 0;
-  
 }
 .logo-hea {
   display: flex;
@@ -46,7 +43,7 @@ img {
   text-transform: uppercase;
   text-decoration: none;
   line-height: 1.17;
- margin-right: 76px;
+  margin-right: 76px;
 }
 
 .stu-dio-1 {
@@ -55,7 +52,7 @@ img {
 .header-item,
 .header-ul,
 .adress-link {
- display: flex;
+  display: flex;
   font-size: 16px;
   gap: 40px;
 }
@@ -63,7 +60,6 @@ img {
   padding: 24px 0;
 }
 .adress {
-    
   display: flex;
   font-size: 16px;
   color: #434455;
@@ -71,15 +67,12 @@ img {
   letter-spacing: 0.02em;
   gap: 40px;
   text-align: center;
-  
-  
 }
 
 .link-list {
   font-style: normal;
   display: flex;
   gap: 40px;
-  
 }
 
 .header-item {
@@ -109,13 +102,11 @@ h1 {
   color: #ffffff;
   letter-spacing: 0.02em;
   max-width: 496px;
-  
 }
 
 .order-service {
   background-color: #2e2f42;
   padding: 188px 0;
- 
 }
 .main-text {
   max-width: 496px;
@@ -123,7 +114,6 @@ h1 {
 .button {
   display: block;
   margin: 0 auto;
-  
 }
 
 .button-text-color {
@@ -141,8 +131,6 @@ h1 {
   border-radius: 4px;
   cursor: pointer;
   display: block;
-        
-
 }
 
 .button-text-color:hover {
@@ -174,7 +162,6 @@ h1 {
 .our-team {
   background-color: #f4f4fd;
   padding: 120px 0;
-
 }
 .our-team-div {
   padding: 32px 0;
@@ -241,7 +228,6 @@ h2 {
   margin-bottom: 72px;
 }
 .footer {
-  
   padding: 100px 0;
   font-family: "Raleway" sans-serif;
   color: #4d5ae5;
@@ -257,10 +243,8 @@ h2 {
   color: #f4f4fd;
 }
 .logo-hea {
-  margin-bottom: 16px;
-}
-.div > a {
   display: inline-block;
+  margin-bottom: 16px;
 }
 
 .footer-p {
