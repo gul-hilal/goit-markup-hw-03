@@ -27,11 +27,14 @@ img {
   width: 1158px;
   margin: 0 auto;
   padding: 0 15px;
+  align-items: center;
+  
 }
 .nav-bar {
   display: flex;
   align-items: center;
   padding: 24px 0;
+  align-items: center;
 }
 .logo-hea {
   display: flex;
@@ -44,6 +47,7 @@ img {
   text-decoration: none;
   line-height: 1.17;
   margin-right: 76px;
+  padding: 24px 0;
 }
 
 .stu-dio-1 {
@@ -55,10 +59,13 @@ img {
   display: flex;
   font-size: 16px;
   gap: 40px;
+  text-decoration: none;
 }
 .header-ul .item {
-  padding: 24px 0;
+    padding: 24px 0;
+  display: flex;
 }
+
 .adress {
   display: flex;
   font-size: 16px;
@@ -66,7 +73,10 @@ img {
   line-height: 1.5;
   letter-spacing: 0.02em;
   gap: 40px;
-  text-align: center;
+  text-decoration: none;
+  align-items: center;
+  justify-content: center;
+  
 }
 
 .link-list {
@@ -105,11 +115,18 @@ h1 {
 }
 
 .order-service {
+    display: flex;
+    align-items: center;
+    justify-content: center;
   background-color: #2e2f42;
   padding: 188px 0;
+  
+
 }
 .main-text {
+    display: block;
   max-width: 496px;
+  text-align: center;
 }
 .button {
   display: block;
@@ -151,9 +168,13 @@ h1 {
   clip: rect(0 0 0 0);
   overflow: hidden;
 }
+.middle {
+    text-align: left;
+}
 
 .middle-part {
   padding: 120px 0;
+ 
 }
 .middle-ul {
   display: flex;
@@ -254,4 +275,5 @@ h2 {
   font-size: 12px;
   line-height: 1.5;
   max-width: 264px;
+  text-transform: lowercase;
 }
