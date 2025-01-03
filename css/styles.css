@@ -19,7 +19,6 @@ img {
 }
 .header-logo {
   border-bottom: 1px solid #e7e9fc;
-  padding: 24px 0;
 }
 
 .container {
@@ -27,13 +26,11 @@ img {
   width: 1158px;
   margin: 0 auto;
   padding: 0 15px;
+
   align-items: center;
-  
 }
 .nav-bar {
   display: flex;
-  align-items: center;
-  padding: 24px 0;
   align-items: center;
 }
 .logo-hea {
@@ -62,7 +59,6 @@ img {
   text-decoration: none;
 }
 .header-ul .item {
-    padding: 24px 0;
   display: flex;
 }
 
@@ -76,7 +72,6 @@ img {
   text-decoration: none;
   align-items: center;
   justify-content: center;
-  
 }
 
 .link-list {
@@ -115,16 +110,14 @@ h1 {
 }
 
 .order-service {
-    display: flex;
-    align-items: center;
-    justify-content: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   background-color: #2e2f42;
   padding: 188px 0;
-  
-
 }
 .main-text {
-    display: block;
+  display: block;
   max-width: 496px;
   text-align: center;
 }
@@ -169,12 +162,11 @@ h1 {
   overflow: hidden;
 }
 .middle {
-    text-align: left;
+  text-align: left;
 }
 
 .middle-part {
   padding: 120px 0;
- 
 }
 .middle-ul {
   display: flex;
