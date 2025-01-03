@@ -258,7 +258,7 @@ h2 {
   color: #f4f4fd;
 }
 .logo-footer {
-  display: inline-block;
+  display: flex;
   margin-bottom: 16px;
 }
 
