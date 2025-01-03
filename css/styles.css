@@ -44,7 +44,7 @@ img {
   text-decoration: none;
   line-height: 1.17;
   margin-right: 76px;
- 
+  padding: 24px 0;
 }
 
 .stu-dio-1 {
@@ -60,7 +60,6 @@ img {
 }
 .header-ul .item {
   display: flex;
-  
 }
 
 .adress {
@@ -257,8 +256,11 @@ h2 {
 .stu-dio {
   color: #f4f4fd;
 }
+.footer > .logo-footer {
+    display: inline-block;
+}
 .logo-footer {
-  display: flex;
+  
   margin-bottom: 16px;
 }
 
